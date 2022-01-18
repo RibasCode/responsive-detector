@@ -6,7 +6,7 @@
 ### @media
 
 #### Custom (currently using this)
-- Apple & Bootstrap mixt
+- Apple
 ```
 /* Small devices (phones, 0px and up) */
 
@@ -20,11 +20,8 @@
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { ... }
 
-/* Medium/Large devices (small laptops, 1069px and up) */
+/* Large devices (laptops, 1069px and up) */
 @media (min-width: 1069px) { ... }
-
-/* Large devices (laptops, 1281px and up) */
-@media (min-width: 1281px) { ... }
 
 /* Extra large devices (desktop & big laptops, 1441px and up) */
 @media (min-width: 1441px) { ... }
@@ -44,7 +41,7 @@
 ```
 
 
-#### Aple
+#### Apple
 ```
 /* Small devices (phones, 0px and up) */
 

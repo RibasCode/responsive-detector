@@ -84,7 +84,7 @@ p{
     }
 }
 
-/* Large devices (laptops, 1281px and up) */
+/* Large devices (laptops, 1069px and up) */
 @media (min-width: 1069px) {
     .hero{
         background-color: yellow;

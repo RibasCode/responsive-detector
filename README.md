@@ -6,7 +6,6 @@
 ### @media
 
 #### Custom (currently using this)
-- Apple
 ```
 /* Small devices (phones, 0px and up) */
 
@@ -14,16 +13,16 @@
     @media - Mobile First
 --------------------------------------------------------------*/
 
-/* Small devices (landscape phones, 576px and up) */
+/* sm - Small devices (landscape phones - 576px and up) */
 @media (min-width: 576px) { ... }
 
-/* Medium devices (tablets, 768px and up) */
+/* md - Medium devices (tablets - 768px and up) */
 @media (min-width: 768px) { ... }
 
-/* Large devices (laptops, 1069px and up) */
-@media (min-width: 1069px) { ... }
+/* lg - Large devices (laptops - 1024px and up) */
+@media (min-width: 1024px) { ... }
 
-/* Extra large devices (desktop & big laptops, 1441px and up) */
+/* xl - Extra large devices (desktop & big laptops - 1441px and up) */
 @media (min-width: 1441px) { ... }
 
 /*--------------------------------------------------------------
@@ -31,10 +30,10 @@
 --------------------------------------------------------------*/
 
 /* Tablets compressed height */
-@media screen and (max-width: 1068px) and (min-width: 768px) and (max-height: 733px) and (min-height: 0px) { ... }
+@media screen and (max-width: 1023px) and (min-width: 768px) and (max-height: 733px) and (min-height: 0px) { ... }
 
 /* Laptops compressed height */
-@media screen and (max-width: 1440px) and (min-width: 1069px) and (max-height: 775px) and (min-height: 0px) { ... }
+@media screen and (max-width: 1440px) and (min-width: 1024px) and (max-height: 775px) and (min-height: 0px) { ... }
 
 /* Desktop compressed height */
 @media screen and (max-width: 1441000px) and (min-width: 1441px) and (max-height: 775px) and (min-height: 0px) { ... }
